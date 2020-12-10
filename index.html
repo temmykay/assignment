@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampSite</title>
+</head>
+<body>
+    <h4> <center><b>Almaguin Campground - Reservation</b></center>  </h4>  
+
+        <label for="accomodation"> <b>Accomodation</b> </label>&nbsp;
+        <select id="accomodation">
+            <option value="RV">RV</option>
+            <option value="tent">Tent</option>
+            <option value="cabin">Cabin/Lodging</option>
+          </select>
+          <br><br>
+          <label for="name"> <b>Name</b> </label> &nbsp;
+        <select id="name">
+            <option value="mr">Mr</option>
+            <option value="ms">Ms</option>
+            <option value="mrs">Mrs</option>
+            <option value="miss">Miss</option>
+            <option value="Dr">Dr</option>
+          </select>&nbsp;
+          <input type="name" placeholder="First Name"> &nbsp;
+          <input type="name" placeholder="Second Name"> 
+          <br><br>
+          <label for="guest"> <b>Guests</b> </label> &nbsp;
+          <input type="guest" placeholder="18+ years"> &nbsp;
+          <input type="guest" placeholder="2-17 years"> &nbsp;
+          <input type="guest" placeholder="< 2 years"> 
+          <br><br>
+          <label for="contact"> <b>Contacts</b> </label> &nbsp;
+          <input type="contact" placeholder="Email"> &nbsp;
+          <input type="contact" placeholder="Phone: (xxx)-xxx xxxx"> 
+          <br><br>
+          <label for="checkin"> <b>Checkin</b> </label> &nbsp;
+        <input type="date" id="checkin" min="2020-01-01" max="2020-12-31"> &nbsp;
+        <label for="checkout"> <b>Checkout</b> </label> &nbsp;
+        <input type="date" id="checkout" min="2020-01-01" max="2020-12-31"> &nbsp; <br><br>
+        <label for="equipment"> <b>Equipment Type</b></label> &nbsp;
+        <select id="equipment">
+            <option value="travel">Travel Trailer</option>
+            <option value="fifth">Fifth Wheel</option>
+            <option value="motor">RV/Motorhome</option>
+            <option value="tent_trailer">Tent Trailer</option>
+            <option value="pickup">Pickup Camper</option>
+            <option value="camper">Camper van</option>
+          </select> &nbsp;
+          <label  for="slideout"><b>Slide-outs<b></label> &nbsp;
+            <input type="radio" id="yes" name="slideout" value="yes">
+            <label for="">Yes😁</label>
+            <input type="radio" id="no" name="slideout" value="no">
+            <label for="">No😢</label>
+            <br><br>
+
+            <label for="requiredService">Required Service</label> &nbsp;
+            <select name="" id="" multiple>
+            <option value="hydro">Hydro</option>
+            <option value="water">Water</option>
+            <option value="sewer">Sewer</option>
+               </select>
+            <br><br>
+
+            <label for="pets"><b>Pets</b></label> &nbsp;
+                    <input type="radio" id="yes" name="pets" value="yes">
+                    <label for="">Yes✔</label>
+                    <input type="radio" id="no" name="pets" value="no">
+                    <label for="">No❌</label>
+                    <br><br>
+            <label for=""><b>Comments</b></label> &nbsp;
+                    <textarea id="comment" name="coment" rows="5" cols="70" placeholder="Additional commets" >
+                    </textarea>
+                    <br>
+                    <br>
+            <button type="submit">
+                    Request Reservation
+                    </button>
+            <button style="margin-left:400px;"type="button">
+                        Cancel
+                    </button>
+
+</body>
+</html>
